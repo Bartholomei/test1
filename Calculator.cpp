@@ -26,6 +26,7 @@ int main(int argc, char const *argv[])
 
 int Calculator::Calculate(int x, int y, char oper)
 {
+    //to calculate
     switch (oper)
     {
     case '+':
