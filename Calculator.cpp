@@ -37,6 +37,8 @@ int Calculator::Calculate(int x, int y, char oper)
     case '/':
         if (y != 0)
             return x / y;
+    case '^':
+        return x ^ y;
     default:
         return 0;
     }
